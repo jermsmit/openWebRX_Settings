@@ -22,7 +22,8 @@
           "samp_rate": 2400000,
           "start_freq": 25000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "vlf_nav": {
           "name": "VLF Nav (14\u201330 kHz)",
@@ -60,7 +61,8 @@
           "samp_rate": 2400000,
           "start_freq": 530000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "am_1": {
           "name": "AM 530\u2013770 kHz",
@@ -118,7 +120,8 @@
           "samp_rate": 2400000,
           "start_freq": 5900000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "sw_75m": {
           "name": "SW 75m (3.9\u20134.0 MHz)",
@@ -216,7 +219,8 @@
           "samp_rate": 2400000,
           "start_freq": 87500000,
           "start_mod": "wfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "fm_001": {
           "name": "FM 87.5\u201389.9 MHz",
@@ -311,7 +315,7 @@
         "ham_160": {
           "name": "160m (1.80\u20132.00 MHz)",
           "center_freq": 1900000,
-          "samp_rate": 200000,
+          "samp_rate": 250000,
           "start_freq": 1840000,
           "start_mod": "lsb",
           "rf_gain": 40,
@@ -331,7 +335,7 @@
         "ham_60": {
           "name": "60m (5.33\u20135.41 MHz)",
           "center_freq": 5368500,
-          "samp_rate": 75000,
+          "samp_rate": 250000,
           "start_freq": 5357000,
           "start_mod": "usb",
           "rf_gain": 40,
@@ -351,7 +355,7 @@
         "ham_30": {
           "name": "30m (10.10\u201310.15 MHz)",
           "center_freq": 10125000,
-          "samp_rate": 50000,
+          "samp_rate": 250000,
           "start_freq": 10136000,
           "start_mod": "usb",
           "rf_gain": 40,
@@ -371,7 +375,7 @@
         "ham_17": {
           "name": "17m (18.07\u201318.17 MHz)",
           "center_freq": 18118000,
-          "samp_rate": 100000,
+          "samp_rate": 250000,
           "start_freq": 18100000,
           "start_mod": "usb",
           "rf_gain": 40,
@@ -391,7 +395,7 @@
         "ham_12": {
           "name": "12m (24.89\u201324.99 MHz)",
           "center_freq": 24940000,
-          "samp_rate": 100000,
+          "samp_rate": 250000,
           "start_freq": 24915000,
           "start_mod": "usb",
           "rf_gain": 40,
@@ -481,7 +485,8 @@
           "samp_rate": 2400000,
           "start_freq": 144000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "2m_lo": {
           "name": "2m 144\u2013146 MHz",
@@ -525,7 +530,8 @@
           "samp_rate": 2400000,
           "start_freq": 222000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "125m": {
           "name": "1.25m (222\u2013225 MHz)",
@@ -542,7 +548,8 @@
           "samp_rate": 2400000,
           "start_freq": 420000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "70cm_001": {
           "name": "70cm 420\u2013422 MHz",
@@ -703,7 +710,8 @@
           "samp_rate": 2400000,
           "start_freq": 108000000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "nav_001": {
           "name": "VOR/ILS 108\u2013110 MHz",
@@ -756,7 +764,8 @@
           "samp_rate": 2400000,
           "start_freq": 118000000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "comm_001": {
           "name": "Airband 118\u2013120 MHz",
@@ -872,12 +881,13 @@
           "samp_rate": 2400000,
           "start_freq": 225000000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "mil_001": {
           "name": "Mil 225\u2013250 MHz",
           "center_freq": 237500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 225000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -886,7 +896,7 @@
         "mil_002": {
           "name": "Mil 250\u2013275 MHz",
           "center_freq": 262500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 250000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -895,7 +905,7 @@
         "mil_003": {
           "name": "Mil 275\u2013300 MHz",
           "center_freq": 287500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 275000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -904,7 +914,7 @@
         "mil_004": {
           "name": "Mil 300\u2013325 MHz",
           "center_freq": 312500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 300000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -913,7 +923,7 @@
         "mil_005": {
           "name": "Mil 325\u2013350 MHz",
           "center_freq": 337500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 325000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -922,7 +932,7 @@
         "mil_006": {
           "name": "Mil 350\u2013375 MHz",
           "center_freq": 362500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 350000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -931,7 +941,7 @@
         "mil_007": {
           "name": "Mil 375\u2013400 MHz",
           "center_freq": 387500000,
-          "samp_rate": 25000000,
+          "samp_rate": 2500000,
           "start_freq": 375000000,
           "start_mod": "am",
           "rf_gain": 35,
@@ -970,7 +980,8 @@
           "samp_rate": 2400000,
           "start_freq": 150000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ps_vhf_001": {
           "name": "VHF PS 150\u2013152 MHz",
@@ -1088,7 +1099,8 @@
           "samp_rate": 2400000,
           "start_freq": 156000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "marine_ch16": {
           "name": "Marine Ch16 156.800 MHz",
@@ -1136,7 +1148,8 @@
           "samp_rate": 2400000,
           "start_freq": 380000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ps_fed_001": {
           "name": "UHF Fed 380\u2013382 MHz",
@@ -1314,7 +1327,8 @@
           "samp_rate": 2400000,
           "start_freq": 450000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ps_lm_001": {
           "name": "UHF LM 450\u2013452 MHz",
@@ -1582,7 +1596,8 @@
           "samp_rate": 2400000,
           "start_freq": 758000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ps_700_001": {
           "name": "700 PS 758\u2013760 MHz",
@@ -1743,7 +1758,8 @@
           "samp_rate": 2400000,
           "start_freq": 806000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ps_800_001": {
           "name": "800 SMR 806\u2013808 MHz",
@@ -2021,7 +2037,8 @@
           "samp_rate": 2400000,
           "start_freq": 512000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "uhf_tv_001": {
           "name": "UHF 512\u2013514 MHz",
@@ -2956,7 +2973,8 @@
           "samp_rate": 2400000,
           "start_freq": 935000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "lm900_001": {
           "name": "900 LM 935\u2013937 MHz",
@@ -3074,7 +3092,8 @@
           "samp_rate": 2400000,
           "start_freq": 869000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "cell850_001": {
           "name": "Cell 850 869\u2013871 MHz",
@@ -3208,7 +3227,8 @@
           "samp_rate": 2400000,
           "start_freq": 174000000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "vhf_tv_hi_001": {
           "name": "VHF TV Hi 174\u2013176 MHz",
@@ -3855,7 +3875,8 @@
           "samp_rate": 2400000,
           "start_freq": 143000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "pocsag_vhf": {
           "name": "POCSAG VHF (143\u2013163 MHz)",
@@ -3881,7 +3902,8 @@
           "samp_rate": 2400000,
           "start_freq": 929000000,
           "start_mod": "page",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 40
         },
         "flex_929": {
           "name": "FLEX 929.6125 MHz",
@@ -3952,12 +3974,13 @@
           "samp_rate": 2400000,
           "start_freq": 462562500,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "frs_01": {
           "name": "FRS Ch1 462.5625 MHz",
           "center_freq": 462562500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462562500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -3967,7 +3990,7 @@
         "frs_02": {
           "name": "FRS Ch2 462.5875 MHz",
           "center_freq": 462587500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462587500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -3977,7 +4000,7 @@
         "frs_03": {
           "name": "FRS Ch3 462.6125 MHz",
           "center_freq": 462612500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462612500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -3987,7 +4010,7 @@
         "frs_04": {
           "name": "FRS Ch4 462.6375 MHz",
           "center_freq": 462637500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462637500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -3997,7 +4020,7 @@
         "frs_05": {
           "name": "FRS Ch5 462.6625 MHz",
           "center_freq": 462662500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462662500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4007,7 +4030,7 @@
         "frs_06": {
           "name": "FRS Ch6 462.6875 MHz",
           "center_freq": 462687500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462687500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4017,7 +4040,7 @@
         "frs_07": {
           "name": "FRS Ch7 462.7125 MHz",
           "center_freq": 462712500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462712500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4027,7 +4050,7 @@
         "frs_08": {
           "name": "FRS Ch8 467.5625 MHz",
           "center_freq": 467562500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467562500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4037,7 +4060,7 @@
         "frs_09": {
           "name": "FRS Ch9 467.5875 MHz",
           "center_freq": 467587500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467587500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4047,7 +4070,7 @@
         "frs_10": {
           "name": "FRS Ch10 467.6125 MHz",
           "center_freq": 467612500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467612500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4057,7 +4080,7 @@
         "frs_11": {
           "name": "FRS Ch11 467.6375 MHz",
           "center_freq": 467637500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467637500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4067,7 +4090,7 @@
         "frs_12": {
           "name": "FRS Ch12 467.6625 MHz",
           "center_freq": 467662500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467662500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4077,7 +4100,7 @@
         "frs_13": {
           "name": "FRS Ch13 467.6875 MHz",
           "center_freq": 467687500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467687500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4087,7 +4110,7 @@
         "frs_14": {
           "name": "FRS Ch14 467.7125 MHz",
           "center_freq": 467712500,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 467712500,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4120,12 +4143,13 @@
           "samp_rate": 2400000,
           "start_freq": 462550000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "gmrs_15": {
           "name": "GMRS Ch15 462.5500 MHz",
           "center_freq": 462550000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462550000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4135,7 +4159,7 @@
         "gmrs_16": {
           "name": "GMRS Ch16 462.5750 MHz",
           "center_freq": 462575000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462575000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4145,7 +4169,7 @@
         "gmrs_17": {
           "name": "GMRS Ch17 462.6000 MHz",
           "center_freq": 462600000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462600000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4155,7 +4179,7 @@
         "gmrs_18": {
           "name": "GMRS Ch18 462.6250 MHz",
           "center_freq": 462625000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462625000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4165,7 +4189,7 @@
         "gmrs_19": {
           "name": "GMRS Ch19 462.6500 MHz",
           "center_freq": 462650000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462650000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4175,7 +4199,7 @@
         "gmrs_20": {
           "name": "GMRS Ch20 462.6750 MHz",
           "center_freq": 462675000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462675000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4185,7 +4209,7 @@
         "gmrs_21": {
           "name": "GMRS Ch21 462.7000 MHz",
           "center_freq": 462700000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462700000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4195,7 +4219,7 @@
         "gmrs_22": {
           "name": "GMRS Ch22 462.7250 MHz",
           "center_freq": 462725000,
-          "samp_rate": 25000,
+          "samp_rate": 250000,
           "start_freq": 462725000,
           "start_mod": "nfm",
           "rf_gain": 35,
@@ -4247,7 +4271,8 @@
           "samp_rate": 2400000,
           "start_freq": 433000000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "ism_433": {
           "name": "ISM 433 MHz (433.05\u2013434.79)",
@@ -4273,7 +4298,8 @@
           "samp_rate": 2400000,
           "start_freq": 1030000000,
           "start_mod": "am",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "inmarsat": {
           "name": "Inmarsat AERO (1525\u20131559 MHz)",
@@ -4321,10 +4347,10 @@
           "tuning_step": 100
         },
         "dect": {
-          "name": "DECT Cordless (1880\u20131900 MHz)",
-          "center_freq": 1890000000,
+          "name": "DECT (1880 MHz \u2013 beyond RTL-SDR range, capped)",
+          "center_freq": 1766000000,
           "samp_rate": 2400000,
-          "start_freq": 1880000000,
+          "start_freq": 1755000000,
           "start_mod": "nfm",
           "rf_gain": 45,
           "tuning_step": 100
@@ -6977,7 +7003,7 @@
         },
         "lb_1734_014": {
           "name": "L-Band 1765\u20131766 MHz",
-          "center_freq": 1766400000,
+          "center_freq": 1765000000,
           "samp_rate": 2400000,
           "start_freq": 1765200000,
           "start_mod": "am",
@@ -7089,7 +7115,8 @@
           "samp_rate": 2400000,
           "start_freq": 29700000,
           "start_mod": "nfm",
-          "tuning_step": 100
+          "tuning_step": 100,
+          "rf_gain": 35
         },
         "vhf_lo_lm_001": {
           "name": "VHF Low 29.7\u201332.1 MHz",
